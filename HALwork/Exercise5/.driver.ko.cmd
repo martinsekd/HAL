@@ -1,0 +1,1 @@
+cmd_/home/stud/HALwork/Exercise5/driver.ko := arm-poky-linux-gnueabi-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o /home/stud/HALwork/Exercise5/driver.ko /home/stud/HALwork/Exercise5/driver.o /home/stud/HALwork/Exercise5/driver.mod.o ;  true

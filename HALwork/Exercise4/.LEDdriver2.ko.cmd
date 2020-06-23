@@ -1,0 +1,1 @@
+cmd_/home/stud/HALwork/Exercise4/LEDdriver2.ko := arm-poky-linux-gnueabi-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o /home/stud/HALwork/Exercise4/LEDdriver2.ko /home/stud/HALwork/Exercise4/LEDdriver2.o /home/stud/HALwork/Exercise4/LEDdriver2.mod.o ;  true

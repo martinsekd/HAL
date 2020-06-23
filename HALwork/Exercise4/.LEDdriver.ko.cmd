@@ -1,0 +1,1 @@
+cmd_/home/stud/exer4/LEDdriver.ko := arm-poky-linux-gnueabi-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o /home/stud/exer4/LEDdriver.ko /home/stud/exer4/LEDdriver.o /home/stud/exer4/LEDdriver.mod.o ;  true

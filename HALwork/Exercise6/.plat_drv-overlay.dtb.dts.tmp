@@ -1,0 +1,36 @@
+<<<<<<< HEAD
+# 1 "/home/stud/Desktop/HAL/i3hal_f2019_stay_home_and_eat_popcorn/Exercise6/plat_drv-overlay.dts"
+# 1 "<built-in>"
+# 1 "<command-line>"
+# 1 "/home/stud/Desktop/HAL/i3hal_f2019_stay_home_and_eat_popcorn/Exercise6/plat_drv-overlay.dts"
+=======
+# 1 "/home/stud/HALwork/Exercise6/plat_drv-overlay.dts"
+# 1 "<built-in>"
+# 1 "<command-line>"
+# 1 "/home/stud/HALwork/Exercise6/plat_drv-overlay.dts"
+>>>>>>> c82f84e9b7913ea42765419fe39b4c15a65bae6d
+
+
+/dts-v1/;
+/plugin/;
+
+/ {
+  compatible = "brcm,bcm2835", "brcm,bcm2836", "brcm,bcm2708", "brcm,bcm2709";
+
+  fragment@0 {
+
+    target-path = "/";
+    __overlay__ {
+
+      plat_drv: plat_drv@0 {
+
+        compatible = "ase, plat_drv";
+
+        gpios = <&gpio 12 0>, <&gpio 21 1>;
+
+        mydevt-custom = <0x12345678>;
+        status = "okay";
+      };
+    };
+  };
+};
